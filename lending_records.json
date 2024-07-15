@@ -1,42 +1,57 @@
 [
-    {
-        "book": {
-            "title": "C Programming",
-            "authors": [
-                "Snr"
-            ],
-            "isbn": "459785",
-            "year": "2015",
-            "price": 500.0,
-            "quantity": 8
-        },
-        "lent_to": "John"
+  {
+    "book": {
+      "title": "C Programming",
+      "authors": ["Snr"],
+      "isbn": "459785",
+      "year": "2015",
+      "price": 500.0,
+      "quantity": 7
     },
-    {
-        "book": {
-            "title": "C Programming",
-            "authors": [
-                "Snr"
-            ],
-            "isbn": "459785",
-            "year": "2015",
-            "price": 500.0,
-            "quantity": 7
-        },
-        "lent_to": "Naeem"
+    "lent_to": "Naeem"
+  },
+  {
+    "book": {
+      "title": "You Can Win",
+      "authors": ["Shiv Khera"],
+      "isbn": "789798",
+      "year": "1998",
+      "price": 350.0,
+      "quantity": 9
     },
-    {
-        "book": {
-            "title": "Funny",
-            "authors": [
-                "Snr",
-                "Redoy"
-            ],
-            "isbn": "219334",
-            "year": "2013",
-            "price": 500.0,
-            "quantity": 1
-        },
-        "lent_to": "Batman"
-    }
+    "lent_to": "John"
+  },
+  {
+    "book": {
+      "title": "You Can Win",
+      "authors": ["Shiv Khera"],
+      "isbn": "789798",
+      "year": "1998",
+      "price": 350.0,
+      "quantity": 8
+    },
+    "lent_to": "Carry"
+  },
+  {
+    "book": {
+      "title": "You Can Win",
+      "authors": ["Shiv Khera"],
+      "isbn": "789798",
+      "year": "1998",
+      "price": 350.0,
+      "quantity": 8
+    },
+    "lent_to": "Rahul"
+  },
+  {
+    "book": {
+      "title": "Dictionary",
+      "authors": ["Abraham", "Jonathon"],
+      "isbn": "45896254",
+      "year": "1990",
+      "price": 1000.0,
+      "quantity": 8
+    },
+    "lent_to": "Adi"
+  }
 ]
