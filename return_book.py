@@ -20,7 +20,7 @@ def return_book():
         try:
             choice = int(input("Enter the number of the book you want to return: "))
             if 1 <= choice <= len(matching_books):
-                book_to_return = matching_books[idx]
+                book_to_return = matching_books[choice - 1]
 
                 # Find the lending record to remove
                 for record in menu.lending_records:
