@@ -1,6 +1,4 @@
-import json
-import menu
-import model
+import json, menu, model
 
 
 def save_books():
