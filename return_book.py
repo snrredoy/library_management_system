@@ -14,7 +14,7 @@ def return_book():
         print("Books found:")
         for idx, book in enumerate(matching_books):
             print(
-                f"{idx + 1}. Title: {book.book.title}, Authors: {', '.join(book.book.authors)}, ISBN: {book.book.isbn}  , Lend to: {book.lent_to}"
+                f"{idx + 1}. Title: {book.book.title} | Authors: {', '.join(book.book.authors)} | ISBN: {book.book.isbn}  | Lend to: {book.lent_to}"
             )
 
         try:
