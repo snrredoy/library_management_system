@@ -1,5 +1,4 @@
-import menu
-import file_operation
+import menu, file_operation
 
 
 def remove_book():
@@ -14,12 +13,12 @@ def remove_book():
     if matching_books:
         for idx, book in enumerate(matching_books):
             print(
-                f"{idx + 1}. Title: {book.title}, Authors: {', '.join(book.authors)}, ISBN: {book.isbn}"
+                f"{idx + 1}. Title: {book.title} | Authors: {', '.join(book.authors)} | ISBN: {book.isbn}"
             )
 
         try:
             choice = int(input("Enter the number of the book you want to remove: "))
-            if idx + 1 == choice:
+            if 1 <= choice <= len(matching_books):
                 menu.books.remove(matching_books[choice - 1])
                 file_operation.save_books()
                 print("Book removed successfully!")
