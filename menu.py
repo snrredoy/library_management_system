@@ -42,7 +42,7 @@ def main():
             if results:
                 for book in results:
                     print(
-                        f"Title: {book.title}, Authors: {', '.join(book.authors)}, ISBN: {book.isbn}, Year: {book.year}, Price: {book.price}, Quantity: {book.quantity}"
+                        f"Title: {book.title} | Authors: {', '.join(book.authors)} | ISBN: {book.isbn} | Year: {book.year} | Price: {book.price} | Quantity: {book.quantity}"
                     )
             else:
                 print("No books found matching the search term.")
@@ -53,7 +53,9 @@ def main():
             results = search_by_author.search_books_by_author(author)
             if results:
                 for book in results:
-                    print(f"Title: {book.title}, Authors: {', '.join(book.authors)}")
+                    print(
+                        f"Title: {book.title} | Authors: {', '.join(book.authors)} | ISBN: {book.isbn} | Year: {book.year} | Price: {book.price}"
+                    )
             else:
                 print("No books found matching the author name.")
             print("\n")
