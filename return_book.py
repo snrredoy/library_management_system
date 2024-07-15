@@ -14,12 +14,12 @@ def return_book():
         print("Books found:")
         for idx, book in enumerate(matching_books):
             print(
-                f"{idx + 1}. Title: {book.book.title}, Authors: {', '.join(book.book.authors)}, ISBN: {book.book.isbn}"
+                f"{idx + 1}. Title: {book.book.title}, Authors: {', '.join(book.book.authors)}, ISBN: {book.book.isbn}  , Lend to: {book.lent_to}"
             )
 
         try:
             choice = int(input("Enter the number of the book you want to return: "))
-            if idx + 1 == choice:
+            if 1 <= choice <= len(matching_books):
                 book_to_return = matching_books[idx]
 
                 # Find the lending record to remove
