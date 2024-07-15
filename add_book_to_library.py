@@ -1,6 +1,4 @@
-import model
-import file_operation
-import menu
+import model, file_operation, menu
 
 
 def add_book():
