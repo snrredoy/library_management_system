@@ -1,45 +1,42 @@
 [
-    {
-        "title": "Funny",
-        "authors": [
-            "Snr",
-            "Redoy"
-        ],
-        "isbn": "219334",
-        "year": "2013",
-        "price": 500.0,
-        "quantity": 3
-    },
-    {
-        "title": "C Programming",
-        "authors": [
-            "Snr"
-        ],
-        "isbn": "459785",
-        "year": "2015",
-        "price": 500.0,
-        "quantity": 7
-    },
-    {
-        "title": "Dictionary",
-        "authors": [
-            "Abraham",
-            "Jonathon"
-        ],
-        "isbn": "45896254",
-        "year": "1990",
-        "price": 1000.0,
-        "quantity": 9
-    },
-    {
-        "title": "Rich Dad Poor Dad",
-        "authors": [
-            "Robart",
-            "T kiyosaki"
-        ],
-        "isbn": "456456244",
-        "year": "2000",
-        "price": 450.0,
-        "quantity": 5
-    }
+  {
+    "title": "C Programming",
+    "authors": ["Snr"],
+    "isbn": "459785",
+    "year": "2015",
+    "price": 500.0,
+    "quantity": 10
+  },
+  {
+    "title": "Funny",
+    "authors": ["Snr", "Redoy"],
+    "isbn": "219334",
+    "year": "2013",
+    "price": 500.0,
+    "quantity": 3
+  },
+  {
+    "title": "Dictionary",
+    "authors": ["Abraham", "Jonathon"],
+    "isbn": "45896254",
+    "year": "1990",
+    "price": 1000.0,
+    "quantity": 9
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "authors": ["Robart", "T kiyosaki"],
+    "isbn": "456456244",
+    "year": "2000",
+    "price": 450.0,
+    "quantity": 5
+  },
+  {
+    "title": "You Can Win",
+    "authors": ["Shiv Khera"],
+    "isbn": "789798",
+    "year": "1998",
+    "price": 350.0,
+    "quantity": 10
+  }
 ]
