@@ -1,0 +1,42 @@
+[
+    {
+        "book": {
+            "title": "C Programming",
+            "authors": [
+                "Snr"
+            ],
+            "isbn": "459785",
+            "year": "2015",
+            "price": 500.0,
+            "quantity": 8
+        },
+        "lent_to": "John"
+    },
+    {
+        "book": {
+            "title": "C Programming",
+            "authors": [
+                "Snr"
+            ],
+            "isbn": "459785",
+            "year": "2015",
+            "price": 500.0,
+            "quantity": 7
+        },
+        "lent_to": "Naeem"
+    },
+    {
+        "book": {
+            "title": "Funny",
+            "authors": [
+                "Snr",
+                "Redoy"
+            ],
+            "isbn": "219334",
+            "year": "2013",
+            "price": 500.0,
+            "quantity": 1
+        },
+        "lent_to": "Batman"
+    }
+]
